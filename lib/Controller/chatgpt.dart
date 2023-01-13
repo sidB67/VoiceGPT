@@ -1,8 +1,5 @@
 import 'dart:convert';
-
-import 'package:flutter_chatgpt_api/flutter_chatgpt_api.dart';
 import 'package:get/get.dart';
-import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:voiceai/tokens.dart';
 import 'package:text_to_speech/text_to_speech.dart';
 import '../Model/chatmessage.dart';

@@ -80,9 +80,9 @@ class HomeView extends StatelessWidget {
                   Obx(() {
                     return _gptController.isLoading.value
                         ? SizedBox(
-                            width: 36,
-                            height: 36,
-                            child: CircularProgressIndicator(),
+                            width: 24,
+                            height: 24,
+                            child: Center(child: CircularProgressIndicator()),
                           )
                         : Container(
                             width: 36,
